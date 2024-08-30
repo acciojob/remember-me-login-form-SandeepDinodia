@@ -3,6 +3,7 @@
  const password=document.getElementById('password');
  const submit=document.getElementById('submit');
  const checkbox=document.getElementById('checkbox');
+const existing = document.getElementById('existing');
 
 submit.addEventListener('click',function(event){
 	event.preventDefault();
