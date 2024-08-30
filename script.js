@@ -15,7 +15,7 @@ submit.addEventListener('click',function(event){
 			localStorage.removeItem('username')
 			localStorage.removeItem('password')
 		}
-		alert("logged in as : " + username.value);
+		alert("logged in as " + username.value);
 	}
 });
 if(localStorage.getItem('username')) {
