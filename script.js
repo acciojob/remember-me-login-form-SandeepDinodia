@@ -12,10 +12,10 @@ submit.addEventListener('click',function(event){
 			localStorage.setItem('username',username.value);
 			localStorage.setItem('password',password.value);
 		}else{
-			localStorage.removeItem('username')
-			localStorage.removeItem('password')
+			localStorage.removeItem('username');
+			localStorage.removeItem('password');
 		}
-		alert("logged in as " + username.value);
+		alert("Logged in as " + username.value);
 	}
 });
 if(localStorage.getItem('username')) {
